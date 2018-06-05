@@ -51,11 +51,6 @@ def how_many_steps?
 end
 
 def break_dance
-  loop do
-    puts ""
-    break
-    puts "goodbye"
-  end
   steps = 0 
   until steps == 6
     step += 1
