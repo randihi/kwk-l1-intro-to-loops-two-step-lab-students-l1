@@ -52,9 +52,19 @@ end
 
 def break_dance
   loop do
-    puts "hello"
+    puts ""
     break
     puts "goodbye"
+  end
+  steps = 0 
+  until steps == 6
+    step += 1
+    puts steps
+    if step % 2 == 0 
+      puts "Left"
+    else
+      puts "Right"
+    break
   end
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
